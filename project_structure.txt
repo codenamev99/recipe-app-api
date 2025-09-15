@@ -1,0 +1,524 @@
+.
+├── .DS_Store
+├── .dockerignore
+├── .git
+│   ├── .DS_Store
+│   ├── COMMIT_EDITMSG
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── .DS_Store
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── main
+│   ├── objects
+│   │   ├── .DS_Store
+│   │   ├── 10
+│   │   │   └── 5ce2da2d6447d11dfe32bfb846c3d5b199fc99
+│   │   ├── 13
+│   │   │   ├── 566b81b018ad684f3a35fee301741b2734c8f4
+│   │   │   └── 624ebc858478e8994eb45d14d393fdadc7f099
+│   │   ├── 1c
+│   │   │   └── 268dc9d2cbdb1d880c99eb9055dca5701c59f7
+│   │   ├── 23
+│   │   │   └── 38b16a52d361bdba1f0ad8465f6496c6af9741
+│   │   ├── 29
+│   │   │   └── 06c368f16d51dfdf735c336029d8207e8ef628
+│   │   ├── 2d
+│   │   │   └── b73eebba290e92a55d4aa4585b37ce6152a57c
+│   │   ├── 31
+│   │   │   └── 3881b2a25677af128c0a4a9eb46c40847d9e50
+│   │   ├── 35
+│   │   │   └── eb1ddfbbc029bcab630581847471d7f238ec53
+│   │   ├── 39
+│   │   │   └── baab5616c9c2cb567924de9dc2b403aa1b8966
+│   │   ├── 3f
+│   │   │   └── 68f57dadbf3a21c7a847bf9ea6941615709651
+│   │   ├── 46
+│   │   │   └── d882f9ce5479908c2add928ede24141e24fcb1
+│   │   ├── 49
+│   │   │   └── 313893cbdbb406712a57cdb08ef5ae64bdfd44
+│   │   ├── 4c
+│   │   │   └── 9c02af0512a684d4fd1663d091212c07419ebf
+│   │   ├── 50
+│   │   │   └── 6d46c0607446bdc30ef11b4b81ce4db9635a1b
+│   │   ├── 51
+│   │   │   └── 0f0e52b481238f7f6fcd4621978c86c6e8684e
+│   │   ├── 57
+│   │   │   └── 022763c953d5ae195d2c5f25d54bc6af295bdd
+│   │   ├── 5a
+│   │   │   └── e87ae973ab25c5b30edcaaf5fe8ad16a3be82d
+│   │   ├── 5e
+│   │   │   ├── 45c42db6026a596f9b98c85ae04dc4dd210ef8
+│   │   │   └── e64d1cb9870844fabbbcb0ccf054f1e4a080a9
+│   │   ├── 5f
+│   │   │   └── 6aa44e283627041bed55058c541ce0253ab804
+│   │   ├── 61
+│   │   │   └── ae549d1eacb78d869bd48fd8a58c36e43e0d56
+│   │   ├── 76
+│   │   │   └── 8c6e4160893f1fad8738ea3d0c94848a3c036c
+│   │   ├── 81
+│   │   │   └── 380101ec6b589d811a2bbd33c486d29e36521c
+│   │   ├── 87
+│   │   │   └── 5cddb309812da7303fbd5d4e2bd645925a7af8
+│   │   ├── 89
+│   │   │   └── 5c0e06049457356294c8e59c97820f7abcc002
+│   │   ├── 8e
+│   │   │   └── d6db716815aaf0c9057b9f57c6df8c72086f3e
+│   │   ├── 97
+│   │   │   └── 824ec9b0149e48c91dce4fee530335b327c686
+│   │   ├── 99
+│   │   │   └── 9e85c7e79fce7301c711dc7c9504b581b7ffb9
+│   │   ├── 9a
+│   │   │   └── 83572ac1f5d3ca5580841251745c21d7c727a7
+│   │   ├── b3
+│   │   │   └── cdd80a8cee93dde0a32b29f168c259c9fc0156
+│   │   ├── b7
+│   │   │   └── e85d4877dabd79107b61e8b6bea0a02697dcdf
+│   │   ├── bc
+│   │   │   └── 1a4646088e2d2baefa2a3482c070ea4e70b3c6
+│   │   ├── c4
+│   │   │   └── a4fbb65a6022a3b32108c3d6076011ab364c8f
+│   │   ├── c9
+│   │   │   └── b9115ded3ff81fa567e1473a18d7a93c59f63e
+│   │   ├── ca
+│   │   │   └── 80daffe29b70ee36ddeef4109967ab885473bc
+│   │   ├── cd
+│   │   │   └── c8cca7b3b2e8b7a35e0eddfe8ff5e09e9866a5
+│   │   ├── ce
+│   │   │   └── 15bda434c3db1c313f6ff7a25c2f4185cef00e
+│   │   ├── d1
+│   │   │   └── 53660494063190bfff8692e7579ebe1419e539
+│   │   ├── da
+│   │   │   └── 5d23dfcc430f4fe15be95a461edc0cb49952e1
+│   │   ├── e0
+│   │   │   └── 019a7e04dba5ba050c4e32bb2f5b3e36d61a0b
+│   │   ├── e6
+│   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   ├── ea
+│   │   │   └── e3494b444f3d9471a14365cb557ed255dea6e3
+│   │   ├── ed
+│   │   │   └── e9cc54e664729f96b1decbb2b1845725fe75e1
+│   │   ├── f0
+│   │   │   ├── 6c9d17a01e052545bb8b82df833d0946d672a6
+│   │   │   └── e9aec10350a0a762ba4c8bb449ca4f5ff29187
+│   │   ├── f8
+│   │   │   └── 2ec63d595eee97f4335bfd6aec42f6f9eddeb8
+│   │   ├── fa
+│   │   │   └── 18bb4fd7feb0f7cfba201ff13edad967390217
+│   │   ├── fb
+│   │   │   ├── a7492dab0d457a491390fc7b2e996399505075
+│   │   │   └── c981b14f0622da7c6a295805cbc96fc6d0f5c8
+│   │   ├── ff
+│   │   │   └── d64899c76282db3536c1fdb69fe51e74c0e39b
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-f9d1c2ccbcc8bec1f696ca8c9acdbe6c607f95bd.idx
+│   │       ├── pack-f9d1c2ccbcc8bec1f696ca8c9acdbe6c607f95bd.pack
+│   │       └── pack-f9d1c2ccbcc8bec1f696ca8c9acdbe6c607f95bd.rev
+│   ├── packed-refs
+│   └── refs
+│       ├── .DS_Store
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── main
+│       └── tags
+├── .github
+│   └── workflows
+│       └── checks.yml
+├── .gitignore
+├── .idea
+│   ├── .gitignore
+│   ├── inspectionProfiles
+│   │   └── profiles_settings.xml
+│   ├── misc.xml
+│   ├── modules.xml
+│   ├── recipe-app-api.iml
+│   ├── vcs.xml
+│   └── workspace.xml
+├── Dockerfile
+├── README.md
+├── app
+│   ├── .DS_Store
+│   ├── .flake8
+│   ├── app
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-39.pyc
+│   │   │   ├── calc.cpython-39.pyc
+│   │   │   ├── settings.cpython-39.pyc
+│   │   │   ├── tests.cpython-39.pyc
+│   │   │   ├── urls.cpython-39.pyc
+│   │   │   └── wsgi.cpython-39.pyc
+│   │   ├── asgi.py
+│   │   ├── calc.py
+│   │   ├── settings.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── core
+│   │   ├── .DS_Store
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-39.pyc
+│   │   │   ├── admin.cpython-39.pyc
+│   │   │   ├── apps.cpython-39.pyc
+│   │   │   └── models.cpython-39.pyc
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── management
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── __init__.cpython-39.pyc
+│   │   │   └── commands
+│   │   │       ├── __init__.py
+│   │   │       ├── __pycache__
+│   │   │       │   ├── __init__.cpython-39.pyc
+│   │   │       │   └── wait_for_db.cpython-39.pyc
+│   │   │       └── wait_for_db.py
+│   │   ├── migrations
+│   │   │   ├── __init__.py
+│   │   │   └── __pycache__
+│   │   │       └── __init__.cpython-39.pyc
+│   │   ├── models.py
+│   │   └── tests
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── __init__.cpython-39.pyc
+│   │       │   └── test_command.cpython-39.pyc
+│   │       └── test_command.py
+│   ├── db.sqlite3
+│   └── manage.py
+├── docker-compose.yml
+├── project_structure.txt
+├── requirements.dev.txt
+└── requirements.txt
+
+82 directories, 142 files
+from django.db import models
+
+# Create your models here.
+"""Test custom Django commands."""
+
+from unittest.mock import patch
+
+from psycopg2 import OperationalError as Psycopg2Error
+
+from django.core.management import call_command
+from django.db.utils import OperationalError
+from django.test import SimpleTestCase
+
+
+@patch('core.management.commands.wait_for_db.Command.check')
+class CommandTests(SimpleTestCase):
+    """Test custom Django commands."""
+
+    def test_wait_for_db_ready(self, patched_check):
+        """Test waiting for db when db is available."""
+        patched_check.return_value = True
+
+        call_command('wait_for_db')
+
+        patched_check.assert_called_once_with(databases=['default'])
+
+
+    @patch('time.sleep')
+    def test_wait_for_db_delay(self, patched_sleep, patched_check):
+        """Test waiting for db when getting operational error."""
+        patched_check.side_effect = [Psycopg2Error] * 2 + \
+            [OperationalError] * 3 + [True]
+
+        call_command('wait_for_db')
+
+        self.assertEqual(patched_check.call_count, 6)
+        patched_check.assert_called_with(database=['default'])
+"""Django command to pause execution until database is available"""
+
+import time
+
+from psycopg2 import OperationalError as Psycopg2Error
+
+from django.db.utils import OperationalError
+from django.core.management.base import BaseCommand
+
+class Command(BaseCommand):
+    """Django command to pause execution until database is available"""
+
+    def handle(self, *args, **options):
+        pass
+from django.apps import AppConfig
+
+
+class CoreConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'core'
+from django.contrib import admin
+
+# Register your models here.
+"""
+ASGI config for app project.
+
+It exposes the ASGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
+"""
+
+import os
+
+from django.core.asgi import get_asgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app.settings')
+
+application = get_asgi_application()
+"""
+Calculator Functions
+"""
+
+
+def add(x, y):
+    """Add x and y and return result."""
+    return x + y
+
+
+def subtract(x, y):
+    """SUBTRACT X FROM Y AND RETURN RESULT."""
+    return y-x
+"""
+Django settings for app project.
+
+Generated by 'django-admin startproject' using Django 3.2.25.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.2/topics/settings/
+
+For the full list of settings and their values, see
+https://docs.djangoproject.com/en/3.2/ref/settings/
+"""
+import os
+from pathlib import Path
+
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-_tov^8m0$xlfesk%31s3!g093)*$_#ocd+yczgw3$iftb10sqb'
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+ALLOWED_HOSTS = []
+
+
+# Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'core',
+]
+
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+ROOT_URLCONF = 'app.urls'
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+WSGI_APPLICATION = 'app.wsgi.application'
+
+
+# Database
+# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+       'ENGINE': 'django.db.backends.postgresql',
+        'HOST': os.environ.get('DB_HOST'),
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASS'),
+    }
+}
+
+
+# Password validation
+# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
+
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+]
+
+
+# Internationalization
+# https://docs.djangoproject.com/en/3.2/topics/i18n/
+
+LANGUAGE_CODE = 'en-us'
+
+TIME_ZONE = 'UTC'
+
+USE_I18N = True
+
+USE_L10N = True
+
+USE_TZ = True
+
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/3.2/howto/static-files/
+
+STATIC_URL = '/static/'
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+"""Sample Tests"""
+
+from django.test import SimpleTestCase
+
+from app import calc
+
+
+class CalcTests(SimpleTestCase):
+    """ Test calc module. """
+
+    def test_add_numbers(self):
+        """Test adding numbers together."""
+        res = calc.add(5,6)
+
+        self.assertEqual(res, 11)
+
+    def test_subtract_numbers(self):
+        """Test subtracting numbers."""
+        res = calc.subtract(10, 15)
+
+        self.assertEqual(res, 5)
+"""app URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/3.2/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+"""
+WSGI config for app project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
+"""
+
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app.settings')
+
+application = get_wsgi_application()
+#!/usr/bin/env python
+"""Django's command-line utility for administrative tasks."""
+import os
+import sys
+
+
+def main():
+    """Run administrative tasks."""
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app.settings')
+    try:
+        from django.core.management import execute_from_command_line
+    except ImportError as exc:
+        raise ImportError(
+            "Couldn't import Django. Are you sure it's installed and "
+            "available on your PYTHONPATH environment variable? Did you "
+            "forget to activate a virtual environment?"
+        ) from exc
+    execute_from_command_line(sys.argv)
+
+
+if __name__ == '__main__':
+    main()
