@@ -1,11 +1,9 @@
-## exclude these files that docker does not need
-
-# Git
+#Git
 .git
 .gitignore
 
 # Docker
-.dockerignore
+.docker
 
 # Python
 app/__pycache__/
