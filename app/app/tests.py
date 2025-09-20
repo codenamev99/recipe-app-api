@@ -1,12 +1,13 @@
-"""Sample Tests"""
-
+"""
+Sample tests
+"""
 from django.test import SimpleTestCase
 
 from app import calc
 
 
 class CalcTests(SimpleTestCase):
-    """ Test calc module. """
+    """ Test the calc module. """
 
     def test_add_numbers(self):
         """Test adding numbers together."""
